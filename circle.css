@@ -9,6 +9,8 @@
     border: 1px solid #cdcbd0;
 	margin:20px;
 	display:none;
+ margin-top: 25px;
+ margin-left: 45px;
   }
   
   .circle-wrap .circle .mask,
@@ -77,6 +79,8 @@
     border: 1px solid #cdcbd0;
 	margin:20px;
 	display:none;
+  margin-top: 25px;
+  margin-left: 45px;
   }
   
   .circle-wrap1 .circle1 .mask1,
@@ -155,6 +159,8 @@
     border: 1px solid #cdcbd0;
 	margin:20px;
 	display:none;
+  margin-top: 25px;
+  margin-left: 45px;
   }
   
   .circle-wrap2 .circle2 .mask2,

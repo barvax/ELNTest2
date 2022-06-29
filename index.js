@@ -5,7 +5,7 @@ let expTitle = "";
 function ShowrEtable(){
 var loading =  document.getElementById('loading');
 loading.style.display = "block";
-const myTimeout = setTimeout(ShowElements, 1500);
+const myTimeout = setTimeout(ShowElements,900);
 
 
 }
@@ -43,7 +43,7 @@ loading.style.display = "none";
 GenerateResults();
 ShowCircleBar();
 var title =  document.getElementById('exp-title');
-title.innerHTML = expTitle;
+title.innerHTML = expTitle+" Results";
 }
 
 
@@ -55,6 +55,7 @@ circle2.style.display = "block";
 	let circle3 = document.getElementById('circle3');
 circle3.style.display = "block";
  document.getElementById('conclusions').style.display = "block"; 
+ document.getElementById('cloneBtn').style.display = "block"; 
 	
 }
 
@@ -72,6 +73,11 @@ function setColor(e){
 	console.log(e.target.textContent)
 	expTitle = e.target.textContent;
 	
+}
+
+function CloseHamDiv(state){
+	document.getElementById('ham-div').style.display = state;
+	document.getElementById('modal').style.display = state;
 }
 
 
