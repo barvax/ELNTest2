@@ -1,7 +1,7 @@
 
 const results = ['sample ']
 let expTitle = "";
-
+var switchTable = false;
 function ShowrEtable(){
 var loading =  document.getElementById('loading');
 loading.style.display = "block";
@@ -55,8 +55,11 @@ circle2.style.display = "block";
 	let circle3 = document.getElementById('circle3');
 circle3.style.display = "block";
  document.getElementById('conclusions').style.display = "block"; 
- document.getElementById('cloneBtn').style.display = "block"; 
-	
+ document.getElementById('cloneBtn').style.display = "inline"; 
+  document.getElementById('dropdown').style.display = "inline-block"; 
+    document.getElementById('switchBtn').style.display = "inline"; 
+		 document.getElementById('mass-table').style.display = "none"; 
+	switchTable = false;
 }
 
 const collection = document.getElementsByClassName("exp");
@@ -79,5 +82,17 @@ function CloseHamDiv(state){
 	document.getElementById('ham-div').style.display = state;
 	document.getElementById('modal').style.display = state;
 }
-
-
+var switchTable = false;
+function SwithConcToMassTable(){
+	if(switchTable){
+		 document.getElementById('conclusions').style.display = "block"; 
+	 document.getElementById('mass-table').style.display = "none"; 
+	 switchTable = false;
+	}else{
+		
+			 document.getElementById('conclusions').style.display = "none"; 
+	 document.getElementById('mass-table').style.display = "block"; 
+	 switchTable = true;
+	}
+	
+}

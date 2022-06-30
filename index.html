@@ -105,8 +105,18 @@
   
   <div class = 'inner-middle-div'>
     <br><h4 id='exp-title'></h4><br>
-    
-    <button id="cloneBtn">Clone Exp</button>
+    <div style="display:flex">
+	    <button id="cloneBtn">Clone Exp</button>
+	<div  id="dropdown" class="dropdown">
+  <button class="dropbtn">Step</button>
+  <div class="dropdown-content">
+    <a href="#"> 1</a>
+    <a href="#"> 2</a>
+    <a href="#"> 3</a>
+  </div>
+</div>
+	</div>
+
     <br>
       <div class="re-table">
         <table id="re-table">
@@ -218,12 +228,77 @@
 		
           </div>
           <div class="bottom-right">
-              <div >
-			  <div id="conclusions">	  <h1>Conclusions</h1>
-			  <p>bla bla bla....</p></div>
+              <div>
+			  <button id='switchBtn' onclick="SwithConcToMassTable()">switch</button>
+				<div id="conclusions">	
+					<h1>Conclusions</h1>
+					<p>bla bla bla....</p>
+				</div>
+				<div id = "mass-table" class = "mass-table">
+				<h5>Mass Table</h5>
+			  <table  >
 		
-			  
+            <tr>
+              <th>title a</th>
+              <th>Contact</th>
+              <th>Country</th>
+              <th>Country</th>
+              <th>Country</th>
+              <th>Country</th>
+            </tr>
+	
+            <tr>
+              <td id="table0" >Alfreds Futterkiste</td>
+              <td id="table1">Maria Anders</td>
+              <td id="table2">Germany</td>
+              <td id="table3">Alfreds Futterkiste</td>
+              <td id="table4">Maria Anders</td>
+              <td id="table5">Germany</td>
+            </tr>
+            <tr>
+              <td id="table6">Centro comercial Moctezuma</td>
+              <td id="table7">Francisco Chang</td>
+              <td id="table8">Mexico</td>
+              <td id="table9">Alfreds Futterkiste</td>
+              <td id="table10">Maria Anders</td>
+              <td id="table11">Germany</td>
+            </tr>
+            <tr>
+              <td id="table12">Ernst Handel</td>
+              <td id="table13">Roland Mendel</td>
+              <td id="table14">Austria</td>
+              <td id="table15">Alfreds Futterkiste</td>
+              <td id="table16">Maria Anders</td>
+              <td id="table17">Germany</td>
+            </tr>
+            <tr>
+              <td id="table18">Island Trading</td>
+              <td id="table19">Helen Bennett</td>
+              <td id="table20">UK</td>
+              <td id="table21">Alfreds Futterkiste</td>
+              <td id="table22">Maria Anders</td>
+              <td id="table23">Germany</td>
+            </tr>
+            <tr>
+              <td id="table24">Laughing Bacchus Winecellars</td>
+              <td id="table25">Yoshi Tannamuri</td>
+              <td id="table26">Canada</td>
+              <td id="table27">Alfreds Futterkiste</td>
+              <td id="table28">Maria Anders</td>
+              <td id="table29">Germany</td>
+            </tr>
+            <tr>
+              <td id="table30">Magazzini Alimentari Riuniti</td>
+              <td id="table31">Giovanni Rovelli</td>
+              <td id="table32">Italy</td>
+              <td id="table33">Alfreds Futterkiste</td>
+              <td id="table34">Maria Anders</td>
+              <td id="table35">Germany</td>
+            </tr>
+          </table>
+				</div>				
 			  </div>
+			
           </div>
       </div>
         

@@ -13,7 +13,7 @@ body{
     height: 100vh;
     background-color: white;
   position: fixed;
-  width: 15%;
+  width: 10%;
 }
 .inner-left-div{
     text-align: center;
@@ -37,7 +37,7 @@ body{
 .menu-left-div{
     display: flex;
     justify-content: flex-start;
-    padding-left: 75px;
+    padding-left: 25px;
 }
 .menu-left-div>i{
    margin-top: 25px;
@@ -61,8 +61,8 @@ body{
     
     height: 100vh;
     position: absolute;
-    width: 70%;
-    left: 16%;
+    width: 76%;
+    left: 10%;
    
   
    
@@ -123,11 +123,11 @@ table {
     margin: auto;
     table-layout: fixed;
  width: 100%;
-
+font-size:12px;
     
   }
   th{
-	  background-color:gray;
+	  background-color:#9ab2c1;
   }
   td, th {
     border: 1px solid #dddddd;
@@ -137,7 +137,7 @@ table {
   }
 
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #eee;
   }
   
   tr>td:nth-child(1):hover{
@@ -217,7 +217,7 @@ grid-template-columns: 33% 33% 33%;
 }
 .right-box3{
     width:94%;
-    height: 295px;
+    height: 155px;
     border: 2px solid  #dddddd;
     
     margin: auto;
@@ -276,4 +276,19 @@ cursor: pointer;
     width:100%;
     background-color: rgba(173, 173, 173,0.5);
     display: none;
+}
+#exp-title{
+	margin-top:0;
+}
+
+.mass-table {
+	overflow:scroll;
+	height:270px;
+	display:none;
+}
+.mass-table > table >tbody>tr > th ,td{
+	width:50px;
+}
+#switchBtn{
+	display:none;
 }
