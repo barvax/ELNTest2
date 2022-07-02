@@ -1,126 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="circle.css">
-	 <link rel="stylesheet" href="loading.css">
-   <link rel="stylesheet" href="btn.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="circle.css">
+  <link rel="stylesheet" href="loading.css">
+  <link rel="stylesheet" href="btn.css">
+  <link rel="stylesheet" href="newExp.css">
+  <title>Document</title>
 </head>
+
 <body>
 
-    <div class="main-div">
-<div class="left-div">
+  <div class="main-div">
+    <div class="left-div">
 
-    <div class="inner-left-div">
-<br>
-        <h1 >Logo</h1>
+      <div class="inner-left-div">
         <br>
-        <img class="hero-left-img"
-            src="https://i.pinimg.com/736x/cf/70/bb/cf70bb97b178f7d75530a7446869a147.jpg">
+        <h1>Logo</h1>
+        <br>
+        <img class="hero-left-img" src="https://i.pinimg.com/736x/cf/70/bb/cf70bb97b178f7d75530a7446869a147.jpg">
         <h2>Eric Cartman</h2>
         <div class="menu-left">
-            <div class="menu-left-div"  >
-                <i class="fa-solid fa-house" onclick="Home()"></i>
-                <h2>Home</h2>
-            </div>
-            <div style="color: rgb(167, 167, 166);" class="menu-left-div">
-                <i class="fa-solid fa-gears"></i>
-                <h2>Settings</h2>
-            </div>
-            <div style="color: rgb(167, 167, 166);" class="menu-left-div">
-                <i class="fa-solid fa-toolbox"></i>
-                <h2>Inventory</h2>
-            </div>
-            <div style="color: rgb(167, 167, 166);" class="menu-left-div">
-                <i class="fa-solid fa-flask"></i>
-                <h2>Samples</h2>
-            </div>
-            <div style="color: rgb(167, 167, 166);" class="menu-left-div">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <h2>Search</h2>
-            </div>
-            <div style="color: rgb(167, 167, 166);" class="menu-left-div">
-                <i class="fa-solid fa-envelope-circle-check"></i>
-                <h2>Mail</h2>
-            </div>
+          <div class="menu-left-div">
+            <i class="fa-solid fa-house" onclick="Home()"></i>
+            <h2>Home</h2>
+          </div>
+          <div style="color: rgb(167, 167, 166);" class="menu-left-div">
+            <i class="fa-solid fa-gears"></i>
+            <h2>Settings</h2>
+          </div>
+          <div style="color: rgb(167, 167, 166);" class="menu-left-div">
+            <i class="fa-solid fa-toolbox"></i>
+            <h2>Inventory</h2>
+          </div>
+          <div style="color: rgb(167, 167, 166);" class="menu-left-div">
+            <i class="fa-solid fa-flask"></i>
+            <h2>Samples</h2>
+          </div>
+          <div style="color: rgb(167, 167, 166);" class="menu-left-div">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>Search</h2>
+          </div>
+          <div style="color: rgb(167, 167, 166);" class="menu-left-div">
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <h2>Mail</h2>
+          </div>
         </div>
-    </div>
-</div>
-<div class="middle-div">
-  <div class="inner-middle-div">
-    <h4>My Recent Experimants</h4>
-    <br>
-    <hr >
-    <br>
-    <button>New</button>
-    <br>
-    <br>
-      <div class="exp-table">
-          <table >
-              <tr>
-                <th>Exp</th>
-                <th>Aim</th>
-                <th>Owner</th>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 0</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 1</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 2</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 3</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 4</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-              </tr>
-              <tr class="exp">
-                <td  onclick="ShowrEtable()">EXP 5</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-              </tr>
-            </table>
       </div>
-  </div>
-  
-  <div class = 'inner-middle-div'>
-    <br><h4 id='exp-title'></h4><br>
-    <div style="display:flex">
-	    <button id="cloneBtn">Clone Exp</button>
-	<div  id="dropdown" class="dropdown">
-  <button class="dropbtn">Step</button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
-</div>
-	</div>
+    </div>
+    <div class="middle-div">
+      <div class="inner-middle-div">
+        <h4>My Recent Experimants</h4>
+        <br>
+        <hr>
+        <br>
+        <button onclick="OpenCreateNewExpDiv('block')">New</button>
+        <br>
+        <br>
+        <div class="exp-table">
+          <table>
+            <tr>
+              <th>Exp</th>
+              <th>Aim</th>
+              <th>Owner</th>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 0</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 1</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 2</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 3</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 4</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+            </tr>
+            <tr class="exp">
+              <td onclick="ShowrEtable()">EXP 5</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-    <br>
-      <div class="re-table">
-        <table id="re-table">
-		
+      <div class='inner-middle-div'>
+        <br>
+        <h4 id='exp-title'></h4><br>
+        <div style="display:flex">
+          <button id="cloneBtn">Clone Exp</button>
+          <div id="dropdown" class="dropdown">
+            <button class="dropbtn">Step</button>
+            <div class="dropdown-content">
+              <a href="#"> 1</a>
+              <a href="#"> 2</a>
+              <a href="#"> 3</a>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <div class="re-table">
+          <table id="re-table">
+
             <tr>
               <th>title a</th>
               <th>Contact</th>
@@ -129,9 +132,9 @@
               <th>Country</th>
               <th>Country</th>
             </tr>
-	
+
             <tr>
-              <td id="table0" >Alfreds Futterkiste</td>
+              <td id="table0">Alfreds Futterkiste</td>
               <td id="table1">Maria Anders</td>
               <td id="table2">Germany</td>
               <td id="table3">Alfreds Futterkiste</td>
@@ -179,165 +182,190 @@
               <td id="table35">Germany</td>
             </tr>
           </table>
+        </div>
       </div>
-  </div>
-      <div class = 'inner-middle-div'>
-        <div class="bottom-middle-div"> 
+      <div class='inner-middle-div'>
+        <div class="bottom-middle-div">
           <div class="bottom-left">
-              <div >
-                <div  id="circle1" class="circle-wrap">
-                    <div class="circle">
-                      <div class="mask full">
-                        <div class="fill"></div>
-                      </div>
-                      <div class="mask half">
-                        <div class="fill"></div>
-                      </div>
-                      <div class="inside-circle"> 75% </div>
-                    </div>
-					 <h5>Chem Yield</h5>
+            <div>
+              <div id="circle1" class="circle-wrap">
+                <div class="circle">
+                  <div class="mask full">
+                    <div class="fill"></div>
                   </div>
-				 
-				      <div id="circle2" class="circle-wrap1">
-                    <div class="circle1">
-                      <div class="mask1 full1">
-                        <div class="fill1"></div>
-                      </div>
-                      <div class="mask1 half1">
-                        <div class="fill1"></div>
-                      </div>
-                      <div class="inside-circle1"> 11.5% </div>
-                    </div>
-					 <h5>Isolated Yield</h5>
+                  <div class="mask half">
+                    <div class="fill"></div>
                   </div>
-				      <div id="circle3" class="circle-wrap2">
-                    <div class="circle2">
-                      <div class="mask2 full2">
-                        <div class="fill2"></div>
-                      </div>
-                      <div class="mask2 half2">
-                        <div id="fill2" class="fill2"></div>
-                      </div>
-                      <div class="inside-circle2"> 2.3% </div>
-                    </div>
-					 <h5> Yield loss</h5>
-                  </div>
-				  
-            
+                  <div class="inside-circle"> 75% </div>
+                </div>
+                <h5>Chem Yield</h5>
               </div>
-		
+
+              <div id="circle2" class="circle-wrap1">
+                <div class="circle1">
+                  <div class="mask1 full1">
+                    <div class="fill1"></div>
+                  </div>
+                  <div class="mask1 half1">
+                    <div class="fill1"></div>
+                  </div>
+                  <div class="inside-circle1"> 11.5% </div>
+                </div>
+                <h5>Isolated Yield</h5>
+              </div>
+              <div id="circle3" class="circle-wrap2">
+                <div class="circle2">
+                  <div class="mask2 full2">
+                    <div class="fill2"></div>
+                  </div>
+                  <div class="mask2 half2">
+                    <div id="fill2" class="fill2"></div>
+                  </div>
+                  <div class="inside-circle2"> 2.3% </div>
+                </div>
+                <h5> Yield loss</h5>
+              </div>
+
+
+            </div>
+
           </div>
           <div class="bottom-right">
-              <div>
-			  <button id='switchBtn' onclick="SwithConcToMassTable()">switch</button>
-				<div id="conclusions">	
-					<h1>Conclusions</h1>
-					<p>bla bla bla....</p>
-				</div>
-				<div id = "mass-table" class = "mass-table">
-				<h5>Mass Table</h5>
-			  <table  >
-		
-            <tr>
-              <th>title a</th>
-              <th>Contact</th>
-              <th>Country</th>
-              <th>Country</th>
-              <th>Country</th>
-              <th>Country</th>
-            </tr>
-	
-            <tr>
-              <td id="table0" >Alfreds Futterkiste</td>
-              <td id="table1">Maria Anders</td>
-              <td id="table2">Germany</td>
-              <td id="table3">Alfreds Futterkiste</td>
-              <td id="table4">Maria Anders</td>
-              <td id="table5">Germany</td>
-            </tr>
-            <tr>
-              <td id="table6">Centro comercial Moctezuma</td>
-              <td id="table7">Francisco Chang</td>
-              <td id="table8">Mexico</td>
-              <td id="table9">Alfreds Futterkiste</td>
-              <td id="table10">Maria Anders</td>
-              <td id="table11">Germany</td>
-            </tr>
-            <tr>
-              <td id="table12">Ernst Handel</td>
-              <td id="table13">Roland Mendel</td>
-              <td id="table14">Austria</td>
-              <td id="table15">Alfreds Futterkiste</td>
-              <td id="table16">Maria Anders</td>
-              <td id="table17">Germany</td>
-            </tr>
-            <tr>
-              <td id="table18">Island Trading</td>
-              <td id="table19">Helen Bennett</td>
-              <td id="table20">UK</td>
-              <td id="table21">Alfreds Futterkiste</td>
-              <td id="table22">Maria Anders</td>
-              <td id="table23">Germany</td>
-            </tr>
-            <tr>
-              <td id="table24">Laughing Bacchus Winecellars</td>
-              <td id="table25">Yoshi Tannamuri</td>
-              <td id="table26">Canada</td>
-              <td id="table27">Alfreds Futterkiste</td>
-              <td id="table28">Maria Anders</td>
-              <td id="table29">Germany</td>
-            </tr>
-            <tr>
-              <td id="table30">Magazzini Alimentari Riuniti</td>
-              <td id="table31">Giovanni Rovelli</td>
-              <td id="table32">Italy</td>
-              <td id="table33">Alfreds Futterkiste</td>
-              <td id="table34">Maria Anders</td>
-              <td id="table35">Germany</td>
-            </tr>
-          </table>
-				</div>				
-			  </div>
-			
-          </div>
-      </div>
-        
-      </div>
-      
-     
-</div>
+            <div>
+              <button id='switchBtn' onclick="SwithConcToMassTable()">switch</button>
+              <div id="conclusions">
+                <h1>Conclusions</h1>
+                <p>bla bla bla....</p>
+              </div>
+              <div id="mass-table" class="mass-table">
+                <h5>Mass Table</h5>
+                <table>
 
-<div class="right-div">
-  <div>
-    <div class="menu-ham">
-      <i onclick="CloseHamDiv('block')" class="fa-solid fa-bars-staggered"></i>
-    </div>
-    <div class=" r-box right-box1"><h4>New Messages</h4></div>
-    <div class="r-box right-box2"><h4>My bla bla</h4></div>
-    <div class="r-box right-box3"><h4>My Something..</h4></div>
-    
-    </div>
-    
+                  <tr>
+                    <th>title a</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                    <th>Country</th>
+                    <th>Country</th>
+                    <th>Country</th>
+                  </tr>
+
+                  <tr>
+                    <td id="table0">Alfreds Futterkiste</td>
+                    <td id="table1">Maria Anders</td>
+                    <td id="table2">Germany</td>
+                    <td id="table3">Alfreds Futterkiste</td>
+                    <td id="table4">Maria Anders</td>
+                    <td id="table5">Germany</td>
+                  </tr>
+                  <tr>
+                    <td id="table6">Centro comercial Moctezuma</td>
+                    <td id="table7">Francisco Chang</td>
+                    <td id="table8">Mexico</td>
+                    <td id="table9">Alfreds Futterkiste</td>
+                    <td id="table10">Maria Anders</td>
+                    <td id="table11">Germany</td>
+                  </tr>
+                  <tr>
+                    <td id="table12">Ernst Handel</td>
+                    <td id="table13">Roland Mendel</td>
+                    <td id="table14">Austria</td>
+                    <td id="table15">Alfreds Futterkiste</td>
+                    <td id="table16">Maria Anders</td>
+                    <td id="table17">Germany</td>
+                  </tr>
+                  <tr>
+                    <td id="table18">Island Trading</td>
+                    <td id="table19">Helen Bennett</td>
+                    <td id="table20">UK</td>
+                    <td id="table21">Alfreds Futterkiste</td>
+                    <td id="table22">Maria Anders</td>
+                    <td id="table23">Germany</td>
+                  </tr>
+                  <tr>
+                    <td id="table24">Laughing Bacchus Winecellars</td>
+                    <td id="table25">Yoshi Tannamuri</td>
+                    <td id="table26">Canada</td>
+                    <td id="table27">Alfreds Futterkiste</td>
+                    <td id="table28">Maria Anders</td>
+                    <td id="table29">Germany</td>
+                  </tr>
+                  <tr>
+                    <td id="table30">Magazzini Alimentari Riuniti</td>
+                    <td id="table31">Giovanni Rovelli</td>
+                    <td id="table32">Italy</td>
+                    <td id="table33">Alfreds Futterkiste</td>
+                    <td id="table34">Maria Anders</td>
+                    <td id="table35">Germany</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+          </div>
         </div>
-        
+
+      </div>
+
+
+    </div>
+
+    <div class="right-div">
+      <div>
+        <div class="menu-ham">
+          <i onclick="CloseHamDiv('block')" class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class=" r-box right-box1">
+          <h4>New Messages</h4>
+        </div>
+        <div class="r-box right-box2">
+          <h4>My bla bla</h4>
+        </div>
+        <div class="r-box right-box3">
+          <h4>My Something..</h4>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
-<div id="modal"></div>
-    <div  id = "loading" class="loading-div">
-      <div class = "loading">
-           <p>Please wait</p>
-                  <span><i></i><i></i></span>
-      
-      </div>
-      </div>
-     <div id="ham-div">
-     <span > <i  onclick="CloseHamDiv('none')" class="fa-solid fa-circle-xmark"></i></span>
-     <div class="quickaction">
-      <span><i class="fa-solid fa-flask"></i><h6>bla bla</h6></span>
-     <span><i class="fa-solid fa-file"></i><h6>bla bla</h6></span> 
-      <span><i class="fa-solid fa-vial"></i><h6>bla bla</h6></span>
-     <span><i class="fa-regular fa-clipboard-user"></i><h6>bla bla</h6></i></span> 
-     </div>
-     </div>
-    <script src="./index.js"></script>
+  <div id="modal"></div>
+  <div id="loading" class="loading-div">
+    <div class="loading">
+      <p>Please wait</p>
+      <span><i></i><i></i></span>
+
+    </div>
+  </div>
+  <div id="ham-div">
+    <span> <i onclick="CloseHamDiv('none')" class="fa-solid fa-circle-xmark"></i></span>
+    <div class="quickaction">
+      <span><i class="fa-solid fa-flask"></i>
+        <h6>bla bla</h6>
+      </span>
+      <span><i class="fa-solid fa-file"></i>
+        <h6>bla bla</h6>
+      </span>
+      <span><i class="fa-solid fa-vial"></i>
+        <h6>bla bla</h6>
+      </span>
+      <span><i class="fa-regular fa-clipboard-user"></i>
+        <h6>bla bla</h6></i>
+      </span>
+    </div>
+  </div>
+
+  <div id="newexp-div">
+    
+   <h4>Create New Experiment?</h4>
+   <div>
+    <button onclick="OpenCreateNewExpDiv('none');ShowLoading();">yes</button>
+    <button onclick="OpenCreateNewExpDiv('none')">Cancel</button>
+   </div>
+  
+  </div>
+  <script src="./index.js"></script>
 </body>
+
 </html>

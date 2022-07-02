@@ -2,10 +2,12 @@
 const results = ['sample ']
 let expTitle = "";
 var switchTable = false;
+
+
 function ShowrEtable(){
 var loading =  document.getElementById('loading');
 loading.style.display = "block";
-const myTimeout = setTimeout(ShowElements,900);
+const myTimeout = setTimeout(ShowElements,1300);
 
 
 }
@@ -33,7 +35,17 @@ for (let i = 0; i < 36; i++) {
 	z=0;
 }
 
-
+function ShowLoading(){
+	var loading =  document.getElementById('loading');
+	loading.style.display = "block";
+	const showLoadingDiv = setTimeout(KillLoading,900);
+	
+}
+function KillLoading(){
+	var loading =  document.getElementById('loading');
+loading.style.display = "none";
+window.location.href = "exp.html";
+}
 
 function ShowElements() {
 	let reTable = document.getElementById('re-table');
@@ -95,4 +107,21 @@ function SwithConcToMassTable(){
 	 switchTable = true;
 	}
 	
+}
+
+function OpenCreateNewExpDiv(state){
+	var x = document.getElementById('newexp-div')
+	x.style.display = state;
+	
+}
+
+function NextPage()
+{
+	
+	window.location.href = "exp.html";
+}
+function Home()
+{
+	
+	window.location.href = "index.html";
 }

@@ -1,0 +1,102 @@
+#newexp-div{
+
+    position: absolute;
+width: 400px;
+height: 200px;
+background-color: rgb(62, 59, 73);
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+display: none;
+color: white;
+text-align: center;
+}
+#newexp-div> div{
+    margin-top: 100px;
+display: flex;
+justify-content: space-around;
+}
+.exp-m-div{
+    height: 100vh;
+    position: absolute;
+    width: 76%;
+    left: 10%;
+}
+
+.wizard-div{
+    width: 90%;
+height: 400px;
+background-color: rgb(255, 255, 255);
+/* background: linear-gradient(45deg, #d3d7e1, #adbadf); */
+margin: auto;
+color:  rgb(62, 59, 73);
+text-align: center;
+margin-top: 100px;
+border-radius: 7px;
+-webkit-box-shadow: 5px 5px 33px 5px #000000; 
+box-shadow: 5px 5px 33px 5px #000000;
+}
+.wizard-div>h2{
+padding-top: 30px;
+}
+.steps>ul{
+    display: flex;
+    justify-content: space-around;
+  
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.dropdownExp {
+    position: relative;
+    
+    display:block;
+  }
+  .form-exp1{
+      text-align: left;
+  }
+  .form-exp2{
+    text-align: left;
+    display: none;
+}
+.form-exp2 > div{
+   overflow: scroll;
+   margin: 20px;
+   padding: 20px;
+   border: #000000 1px solid;
+   height: 600px;
+}
+.form-exp3{
+    text-align: left;
+    display: none;
+}
+.form-exp4{
+    text-align: left;
+    display: none;
+}
+
+#form2-table1{
+    overflow: scroll;
+    height: 200px;
+}
+#form2-table2{
+    overflow: scroll;
+    height: 200px;
+}
+#form2-table3{
+    overflow: scroll;
+    height: 200px;
+}
+#form3-table1{
+    overflow: scroll;
+    height: 550px;
+}
+#form4-table1{
+    overflow: scroll;
+    height: 550px;
+}
+#prevStepBtn{
+    visibility: hidden;
+}
