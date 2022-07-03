@@ -29,8 +29,8 @@ function NextStep(){
      
   }
     if(step==0){
-        div.style.height = '400px';
-        forms[0].style.display='block'
+        div.style.height = '500px';
+        forms[0].style.display='grid'
      steps[0].style.color='red';
      prevStepBtn.style.visibility='hidden';
     }else if(step==1){
@@ -79,4 +79,3 @@ function createTableElement(id){
    var table= document.createElement('table');
 
 }
-

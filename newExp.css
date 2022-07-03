@@ -26,7 +26,7 @@ justify-content: space-around;
 
 .wizard-div{
     width: 90%;
-height: 400px;
+height: 500px;
 background-color: rgb(255, 255, 255);
 /* background: linear-gradient(45deg, #d3d7e1, #adbadf); */
 margin: auto;
@@ -56,6 +56,9 @@ li{
   }
   .form-exp1{
       text-align: left;
+	  padding:25px;
+	  display:grid;
+	 grid-template-columns: 20%  80%;
   }
   .form-exp2{
     text-align: left;
@@ -92,11 +95,27 @@ li{
 #form3-table1{
     overflow: scroll;
     height: 550px;
+	padding:25px;
 }
 #form4-table1{
     overflow: scroll;
     height: 550px;
+	padding:25px;
 }
 #prevStepBtn{
     visibility: hidden;
+}
+.exp-aim{
+	
+	  width: 300px;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+h1{
+	margin-left:25px;
 }
